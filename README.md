@@ -9,4 +9,4 @@
  
 
   
-![workflow]https://github.com/test123an/t_32/actions/workflows/python-package.yml/badge.svg
+[![workflow]https://github.com/test123an/t_32/actions/workflows/python-package.yml/badge.svg]
