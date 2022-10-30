@@ -20,15 +20,15 @@ def _mult(a):
 
 import math
 
+def _main():
+    f = open("input.txt", "r")
+    lines = f.read().split(' ')
+    nums = list(map(int, lines))
+    print (*nums, sep=" ")
+    print (_min(nums))
+    print (_max(nums))
+    print (_sum(nums))
+    print (_mult(nums))
 
-f = open("input.txt", "r")
-lines = f.read().split(' ')
-nums = list(map(int, lines))
-
-
-
-print (*nums, sep=" ")
-print (_min(nums))
-print (_max(nums))
-print (_sum(nums))
-print (_mult(nums))
+if __init__="__main":
+    main()
